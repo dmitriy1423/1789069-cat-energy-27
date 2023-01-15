@@ -126,7 +126,7 @@ const watcher = () => {
 
 // ghPages
 export const gp = () => {
-  return gulp.src('source/**/*')
+  return gulp.src('build/**/*')
     .pipe(ghPages());
 }
 
