@@ -11,6 +11,7 @@ import terser from 'gulp-terser';
 import squoosh from 'gulp-libsquoosh';
 import svgo from 'gulp-svgmin';
 import svgstore from 'gulp-svgstore';
+import ghPages from 'gulp-gh-pages';
 import del from 'del';
 
 // Styles
@@ -121,6 +122,12 @@ const watcher = () => {
   gulp.watch('source/sass/**/*.scss', gulp.series(styles));
   gulp.watch('source/js/*.js', gulp.series(scripts));
   gulp.watch('source/*.html', gulp.series(html, reload));
+}
+
+// ghPages
+export const gp = () => {
+  return gulp.src('source/**/*')
+    .pipe(ghPages());
 }
 
 // Build
