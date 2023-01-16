@@ -20,13 +20,13 @@
     transform: translate(-50%);
     width: 30px;
     height: 30px;
-    background-image: url("../img/icon-plus.svg");
+    background-image: url("../img/sprite.svg#plus");
 
     @media (min-width: $tablet-width) {
       top: 50px;
       width: 60px;
       height: 60px;
-      background-image: url("../img/icon-plus-tablet.svg");
+      background-image: url("../img/sprite.svg#plus-tablet");
     }
   }
 }

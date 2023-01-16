@@ -36,9 +36,10 @@
 
 .advantage--useful {
   &::before {
-    background-image: url("../img/icon-leaf.svg");
+    background-image: url("../img/sprite.svg#leaf");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 30px 32px;
   }
 
   @media (min-width: $tablet-width) {
@@ -50,9 +51,10 @@
 
 .advantage--powder {
   &::before {
-    background-image: url("../img/icon-powder.svg");
+    background-image: url("../img/sprite.svg#powder");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 26px 29px;
   }
 
   @media (min-width: $tablet-width) {
@@ -64,9 +66,10 @@
 
 .advantage--nutration {
   &::before {
-    background-image: url("../img/icon-eat.svg");
+    background-image: url("../img/sprite.svg#eat");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 25px 30px;
   }
 
   @media (min-width: $tablet-width) {
@@ -78,9 +81,10 @@
 
 .advantage--time {
   &::before {
-    background-image: url("../img/icon-time.svg");
+    background-image: url("../img/sprite.svg#time");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 26px 31px;
   }
 
   @media (min-width: $tablet-width) {

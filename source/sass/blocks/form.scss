@@ -114,12 +114,13 @@
 
 .form__input[type="radio"]:checked + .form__label {
   &::before {
-    background-image: url("../img/radio-active.svg");
+    background-image: url("../img/sprite.svg#radio-active");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 13px 13px;
 
     @media (min-width: $tablet-width) {
-      background-image: url("../img/radio-active-tablet.svg");
+      background-size: 18px 18px;
     }
   }
 }
@@ -146,12 +147,13 @@
 
 .form__input[type="checkbox"]:checked + .form__label {
   &::before {
-    background-image: url("../img/checkbox-active.svg");
+    background-image: url("../img/sprite.svg#checkbox-active");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 18px 14px;
 
     @media (min-width: $tablet-width) {
-      background-image: url("../img/checkbox-active-tablet.svg");
+      background-size: 24px 19px;
     }
   }
 }

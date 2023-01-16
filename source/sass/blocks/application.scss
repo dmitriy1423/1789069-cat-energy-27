@@ -85,7 +85,7 @@
       top: 81px;
       width: 140px;
       height: 194px;
-      background-image: url("../img/cat-slim.svg");
+      background-image: url("../img/sprite.svg#cat-slim");
       background-repeat: no-repeat;
       background-size: 140px 194px;
     }
@@ -107,7 +107,7 @@
       top: 135px;
       width: 268px;
       height: 112px;
-      background-image: url("../img/cat-pro.svg");
+      background-image: url("../img/sprite.svg#cat-pro");
       background-size: 268px 112px;
     }
   }
@@ -125,7 +125,7 @@
     position: absolute;
     width: 36px;
     height: 50px;
-    background-image: url("../img/cat-slim.svg");
+    background-image: url("../img/sprite.svg#cat-slim");
     left: 7px;
     bottom: 3px;
   }
@@ -154,7 +154,7 @@
     position: absolute;
     width: 67px;
     height: 28px;
-    background-image: url("../img/cat-pro.svg");
+    background-image: url("../img/sprite.svg#cat-pro");
     left: -10px;
     bottom: 11px;
   }
@@ -228,7 +228,7 @@
     right: 8px;
     width: 24px;
     height: 12px;
-    background-image: url("../img/arrow.svg");
+    background-image: url("../img/sprite.svg#arrow");
     transition: all 0.1s ease-in-out;
   }
 
@@ -236,7 +236,7 @@
     &::after {
       right: 0;
       width: 32px;
-      background-image: url("../img/arrow-long.svg");
+      background-image: url("../img/sprite.svg#arrow-long");
     }
   }
 
@@ -245,7 +245,7 @@
 
     &::after {
       width: 32px;
-      background-image: url("../img/arrow-long.svg");
+      background-image: url("../img/sprite.svg#arrow-long");
     }
   }
 
